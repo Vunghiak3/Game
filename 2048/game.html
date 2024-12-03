@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./game.css">
+    <title>2048 Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>2048</h1>
+
+        <div class="game-container">
+            <div id="game-board">
+            </div>
+        </div>
+
+        <div class="score-container">
+            <div id="score"></div>
+        </div>
+
+        <button id="restart">Restart</button>
+
+        <div class="instructions">
+            <p>Use arrow keys to move tiles. Combine tiles with the samenumberto add them.</p>
+        </div>
+
+        <div class="result result-active">
+            <img src="https://cdn-icons-png.flaticon.com/512/4372/4372342.png" alt="">
+            <div class="score-container">
+                <div id="score-final"></div>
+            </div>
+            <button id="restart-final">Restart</button>
+        </div>
+
+    </div>
+    <script src="./game.js"></script>
+</body>
+
+</html>
